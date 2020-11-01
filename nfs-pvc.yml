@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  # any PVC name
+  name: prometheusvol
+spec:
+  accessModes:
+  - ReadWriteMany
+  resources:
+     requests:
+       storage: 20Gi
