@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   # any PV name
-  name: prmetheus_vol
+  name: prometheusvol
 spec:
   capacity:
     # storage size
